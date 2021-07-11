@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VisitHumbang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nearbyHotels">Nearby Hotels</string>
+    <string name="upcomingEvents">Upcoming Events</string>
+    <string name="lihatsemua"><u>View All</u></string>
+    <string name="ongoing_events">Ongoing Events</string>
+    <string name="passed_events">Passed Events</string>
+    <string name="annual_events">Annual Events</string>
+</resources>
