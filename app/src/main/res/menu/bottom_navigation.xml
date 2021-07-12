@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/news"
+        android:enabled="true"
+        android:icon="@drawable/news"
+        android:title="@string/news"/>
+
+    <item
+        android:id="@+id/destinations"
+        android:enabled="true"
+        android:icon="@drawable/location"
+        android:title="@string/destinations"/>
+    <item
+        android:id="@+id/events"
+        android:enabled="true"
+        android:icon="@drawable/events"
+        android:title="@string/events"/>
+
+    <item
+        android:id="@+id/accomodations"
+        android:enabled="true"
+        android:icon="@drawable/accomodations"
+        android:title="@string/accomodations"/>
+
+</menu>

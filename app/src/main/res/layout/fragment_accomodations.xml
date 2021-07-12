@@ -28,20 +28,6 @@
             tools:listitem="@layout/secondary_card" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_annualEvents"
-            android:layout_width="0dp"
-            android:layout_height="125dp"
-            android:layout_marginTop="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_annualEvents"
-            app:layout_constraintVertical_bias="0.0"
-            tools:itemCount="10"
-            tools:listitem="@layout/primary_card" />
-
-        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_fiveStarHotels"
             android:layout_width="0dp"
             android:layout_height="150dp"
@@ -75,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:text="@string/upcomingEvents"
+            android:text="@string/nearbyHotels"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -104,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="35dp"
-            android:text="@string/ongoing_events"
+            android:text="@string/fivestar_hotels"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.003"
@@ -133,7 +119,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="35dp"
-            android:text="@string/passed_events"
+            android:text="@string/cheap_hotels"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -154,20 +140,5 @@
             app:layout_constraintStart_toEndOf="@+id/cheapHotels"
             app:layout_constraintTop_toBottomOf="@+id/rv_fiveStarHotels"
             app:layout_constraintVertical_bias="1.0" />
-
-        <TextView
-            android:id="@+id/tv_annualEvents"
-            style="@style/primaryTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="55dp"
-            android:text="@string/annual_events"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.002"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rv_cheapHotels"
-            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
