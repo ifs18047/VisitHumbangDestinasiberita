@@ -14,4 +14,8 @@
     <string name="destinations">Destinations</string>
     <string name="events">Events</string>
     <string name="accomodations">Accomodations</string>
+    <string name="lihatsemua1">
+        <u>Lihat Semua</u>
+    </string>
+
 </resources>
