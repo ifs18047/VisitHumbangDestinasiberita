@@ -31,7 +31,7 @@
                 android:src="@drawable/ic_rectangle_60" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tc_location"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/lato_bold"

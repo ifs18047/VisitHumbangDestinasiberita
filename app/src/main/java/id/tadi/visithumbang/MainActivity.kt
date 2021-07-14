@@ -7,8 +7,6 @@ import id.tadi.visithumbang.databinding.ActivityMainBinding
 import id.tadi.visithumbang.events.fragments.EventsFragment
 import androidx.fragment.app.FragmentTransaction
 import id.tadi.visithumbang.accommodations.fragments.AccomodationsFragment
-import id.tadi.visithumbang.berita.berita_fragment
-import id.tadi.visithumbang.destinasi.destinasi_fragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,11 +23,11 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigation.setOnNavigationItemSelectedListener { item ->
             when(item.itemId){
                 R.id.news -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.fl_container, berita_fragment()).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.fl_container, EventsFragment()).commit()
                     true
                 }
                 R.id.destinations -> {
-                    supportFragmentManager.beginTransaction().replace(R.id.fl_container, destinasi_fragment()).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.fl_container, AccomodationsFragment()).commit()
                     true
                 }
                 R.id.events -> {
