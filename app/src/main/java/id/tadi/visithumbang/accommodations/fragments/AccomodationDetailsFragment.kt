@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import id.tadi.visithumbang.R
-import id.tadi.visithumbang.databinding.FragmentAccomodationDetailsBinding
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -14,8 +13,6 @@ private const val ARG_PARAM2 = "param2"
 class AccomodationDetailsFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
-
-    private lateinit var binding : FragmentAccomodationDetailsBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,7 +26,6 @@ class AccomodationDetailsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentAccomodationDetailsBinding.inflate(layoutInflater)
-        return binding.root
+        return inflater.inflate(R.layout.fragment_accomodation_details, container, false)
     }
 }

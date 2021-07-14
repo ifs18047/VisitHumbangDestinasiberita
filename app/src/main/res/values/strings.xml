@@ -9,14 +9,13 @@
     <string name="passed_events">Passed Events</string>
     <string name="annual_events">Annual Events</string>
     <string name="fivestar_hotels">Five Stars</string>
+    <string name="cheap_hotels">Cheap Hotels</string>
     <string name="news">News</string>
     <string name="destinations">Destinations</string>
     <string name="events">Events</string>
     <string name="accomodations">Accomodations</string>
-    <string name="title_sample">Title Sample</string>
-    <string name="location_sample">Location Sample</string>
-    <string name="date_sample">Date Sample</string>
-    <string name="details_image">Details Image</string>
-    <string name="description_sample">Description Sample</string>
-    <string name="cheap_hotels">Cheap Hotels</string>
+    <string name="lihatsemua1">
+        <u>Lihat Semua</u>
+    </string>
+
 </resources>

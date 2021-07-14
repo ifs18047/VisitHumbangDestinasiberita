@@ -48,7 +48,7 @@
         android:id="@+id/imageView"
         android:layout_width="313dp"
         android:layout_height="234dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/c"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

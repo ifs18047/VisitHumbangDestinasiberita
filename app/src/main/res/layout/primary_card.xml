@@ -18,31 +18,6 @@
         app:layout_constraintVertical_bias="0.0"
         card_view:cardBackgroundColor="#CACACA"
         card_view:cardCornerRadius="5dp"
-        card_view:cardElevation="8dp">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/pc_title"
-                style="@style/cardTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/title_sample" />
-
-            <TextView
-                android:id="@+id/textView3"
-                style="@style/cardDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginBottom="10dp"
-                android:text="@string/date_sample" />
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
+        card_view:cardElevation="8dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

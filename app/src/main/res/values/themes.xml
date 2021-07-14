@@ -32,32 +32,4 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#36B9CC</item>
     </style>
-
-    <!-- Cards -->
-    <style name="cardTitle">
-        <item name="fontFamily">@font/lato_bold</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="cardLocation">
-        <item name="fontFamily">@font/lato_bold</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-    
-    <style name="cardDate">
-        <item name="fontFamily">@font/lato_bold</item>
-        <item name="android:textSize">11sp</item>
-    </style>
-
-    <style name="content">
-        <item name="fontFamily">@font/lato_regular</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
-    <style name="contentBold">
-        <item name="fontFamily">@font/lato_regular</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
 </resources>
